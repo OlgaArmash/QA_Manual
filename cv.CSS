@@ -1,0 +1,106 @@
+body{
+  margin:0px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  align-items: flex-start;
+  display: flex;
+  width: 1024;
+  padding: 20px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.LeftSide{
+  width: 100%;
+  padding: 20px;
+  background-color: #eae6f5;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.contacts{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  }
+
+.title{
+margin-bottom: -20px;
+}
+
+
+
+.name{
+  font-family: serif;
+  color: #7c59d4;
+  text-align: center;
+}
+ .position{
+  font-family: serif;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+ }
+.photo{
+  display: flex;
+  justify-content: center;
+  }
+
+  .photo_img{
+    width: auto;
+    border-radius: 50%;
+    border: #ffffff 2px solid;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+ margin-bottom: 5px;
+ margin:
+}
+.phone_img{
+  margin-right: 10px;
+}
+.linkedin{
+  display: flex;
+  align-items: center;
+ margin-bottom: 5px;
+}
+.linkedin_img{
+  margin-right: 10px;
+}
+.github{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.github_img{
+  margin-right: 10px;
+}
+.mail{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.mail_img{
+  margin-right: 10px;
+}
+.title1{
+margin-bottom: -10px;
+}
+
+.RrightSide{
+  width: 55%;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.about_me{
+  text-indent: 20px;
+}
